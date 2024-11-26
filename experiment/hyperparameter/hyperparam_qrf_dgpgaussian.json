@@ -1,0 +1,14 @@
+{
+    "qrf_hyper": [
+        {
+            "n_estimators": 100,
+            "min_samples_leaf": 30,
+            "max_depth": 20
+        },
+        {
+            "n_estimators": 100,
+            "min_samples_leaf": 30,
+            "max_depth": 20
+        }
+    ]
+}

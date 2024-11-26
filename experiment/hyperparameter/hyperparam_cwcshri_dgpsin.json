@@ -1,0 +1,7 @@
+{
+    "lr": 0.005,
+    "batch_size": 500,
+    "patience": 200,
+    "gamma_min": 1.5,
+    "gamma_max": 8
+}
