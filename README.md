@@ -4,3 +4,19 @@ Forecasting accuracy in highly uncertain environments is challenging due to the 
 <p align="center">
   <img src="piresult_example_new.png" alt="The example of the PI result" width="600">
 </p>
+
+```
+|-- experiment
+|   |-- pi_characteristics
+|   |-- benchmark
+|   |-- input_data
+|   |-- hyperparameter
+|-- paper_figure
+|   |-- visualization.ipynb
+|   |-- saved_figures
+|-- utils
+|   |-- formulations.py
+|   |-- networks.py
+|   |-- trainer.py
+|-- demo.ipynb
+```
