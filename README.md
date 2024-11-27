@@ -18,7 +18,7 @@ An example of the PI characteristics of the Sum-k formulation on synthetic data 
 </p>
 
 ## Quick start
-A simple example of how to construct the PI using our formulation is shown in [**demo.ipynb**](./demo.ipynb).
+A simple example of the PI construction utilizing our formulation is presented in [**demo.ipynb**](./demo.ipynb).
 
 ## Repository
 This repository consists of the following folders.
