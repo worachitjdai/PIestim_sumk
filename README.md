@@ -14,7 +14,7 @@ where $w_{[i]}$ is the $i^{\mathrm{th}}$ largest PI width element, with $w_{[1]}
 
 An example of the PI characteristics of the Sum-k formulation on synthetic data is illustrated below.
 <p align="center">
-  <img src="piresult_example_new.png" alt="The example of the PI result" width="600">
+  <img src="piresult_example.png" alt="The example of the PI result" width="600">
 </p>
 
 ## Quick start
