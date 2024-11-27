@@ -40,3 +40,9 @@ This repository consists of the following folders.
 |   |-- trainer.py
 |-- demo.ipynb
 ```
+
+[**demo.ipynb**](./demo.ipynb)
+[**visualization.ipynb**](./paper_figure/visualization.ipynb)
+
+[**benchmark**](./experiment/benchmark)
+[**pi_characteristics**](./experiment/pi_characteristics)
