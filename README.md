@@ -40,15 +40,15 @@ This repository is structured as follows:
 	- `formulation.py` consists of all loss functions used in this study, including our formulation.
 	- `networks.py` consists of a neural network model structure
 	- `trainer.py` includes a training algorithm, evaluation metrics calculation, and result plots generation.
-- `experiment`
+- `experiment` includes all experiment corresponding code and datasets. The experiment is divided into two experiments: [**pi_characteristics**](./experiment/pi_characteristics) and [**benchmark**](./experiment/benchmark).
 - `paper_figure`
 
 
 
 [**visualization.ipynb**](./paper_figure/visualization.ipynb)
 
-[**benchmark**](./experiment/benchmark)
-[**pi_characteristics**](./experiment/pi_characteristics)
+
+
 
 ## Citation
 ```
