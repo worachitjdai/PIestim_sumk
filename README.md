@@ -37,9 +37,9 @@ This repository is structured as follows:
 |-- demo.ipynb
 ```
 - `utils` folder consists of `.py` files that define the loss function, neural network architecture, and training algorithms.
- - `formulation.py` consists of all loss functions used in this study, including our formulation.
- - `networks.py` consists of a neural network model structure
- - `trainer.py` includes a training algorithm, evaluation metrics calculation, and result plots generation.
+	- `formulation.py` consists of all loss functions used in this study, including our formulation.
+	- `networks.py` consists of a neural network model structure
+	- `trainer.py` includes a training algorithm, evaluation metrics calculation, and result plots generation.
 - `experiment`
 - `paper_figure`
 
