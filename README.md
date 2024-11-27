@@ -4,7 +4,6 @@ Forecasting accuracy in highly uncertain environments is challenging due to the 
 
 ## Formulation description
 The proposed formulation is called the Sum-k formulation, which can be shown as
-
 ```math
 \begin{equation}
 	\mathcal{L}_{\text{sum}-k}(\theta) = \max(0, (1-\delta) - \text{PICP}(\theta)) + \gamma \frac{1}{R_{\text{quantile}}} \left [ \frac{1}{K} \sum_{i=1}^{K} w_{[i]}(\theta) + \lambda \cdot \frac{1}{N-K} \sum_{K+1}^{N} w_{[i]}(\theta) \right ],
@@ -21,8 +20,12 @@ An example of the PI characteristics of the Sum-k formulation on synthetic data 
 A simple example of the PI construction utilizing our formulation is presented in [**demo.ipynb**](./demo.ipynb).
 
 ## Repository
-This repository consists of the following folders.
+This repository is structured as follows:
 ```
+|-- utils
+|   |-- formulations.py
+|   |-- networks.py
+|   |-- trainer.py
 |-- experiment
 |   |-- pi_characteristics
 |   |-- benchmark
@@ -31,12 +34,16 @@ This repository consists of the following folders.
 |-- paper_figure
 |   |-- visualization.ipynb
 |   |-- saved_figures
-|-- utils
-|   |-- formulations.py
-|   |-- networks.py
-|   |-- trainer.py
 |-- demo.ipynb
 ```
+- `utils` folder consists of `.py` files that define the loss function, neural network architecture, and training algorithms.
+ - `formulation.py` consists of all loss functions used in this study, including our formulation.
+ - `networks.py` consists of a neural network model structure
+ - `trainer.py` includes a training algorithm, evaluation metrics calculation, and result plots generation.
+- `experiment`
+- `paper_figure`
+
+
 
 [**visualization.ipynb**](./paper_figure/visualization.ipynb)
 
