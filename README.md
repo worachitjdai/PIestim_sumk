@@ -44,8 +44,8 @@ This repository is structured as follows:
 - `experiment` includes all experiment corresponding code and datasets. The experiment is divided into two experiments: [**pi_characteristics**](./experiment/pi_characteristics) and [**benchmark**](./experiment/benchmark).
 - The `paper_figure` folder contains the figures used in this article along with the code for generating them ([**visualization.ipynb**](./paper_figure/visualization.ipynb)).
 
-
 ## Citation
 ```
 Will be added later
 ```
+Contact: `worachitjdai@gmail.com`
