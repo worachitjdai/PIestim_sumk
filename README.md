@@ -2,7 +2,15 @@
 This GitHub repository contains the code used for the synthetic data experiments described in the article "Large Width Penalization for Neural Network-Based Prediction Interval Estimation."
 ## Citation
 ```
-Will be added later
+@misc{amnuaypongsa2024largewidthpenalizationneural,
+      title={Large width penalization for neural network-based prediction interval estimation}, 
+      author={Worachit Amnuaypongsa and Jitkomut Songsiri},
+      year={2024},
+      eprint={2411.19181},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2411.19181}, 
+}
 ```
 Contact: `worachitjdai@gmail.com`
 ## Abstract
